@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	max-width: 1000px;
+	margin: 0 auto;
+	background-image: url("image6.jpg");
+}
+
+.buttons{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 60px;
+}
+	
+.buttons > button:nth-child(1) {
+	background-color: red;
+}
+
+.buttons > button:nth-child(2) {
+	background-color: green;
+}
+
+.buttons > button:nth-child(3) {
+	background-color: yellow;
+}
+
+.buttons > button:nth-child(4) {
+	background-color: orange;
+}
+
+.buttons > button:nth-child(5) {
+	background-color: blue;
+}
+
+.buttons > button:nth-child(6) {
+	background-color: pink;
+}
+
+.buttons > button, nav>button {
+	color: white;
+	border-style: none;
+	text-shadow: 1px 1px 2px black;
+}
+
+.icons>img{
+	max-height: 60px;
+}
+
+.icons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px 0px;
+}
+
+.tel {
+	font-size: 24px;
+}
+
+/*Основная часть*/
+body>section{
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	margin-top: 20px;
+}
+
+nav{
+	display: flex;
+	flex-direction: column;
+}
+
+nav>button{
+	background-color: pink;
+	padding: 20px 0;
+	margin-bottom: 5px;
+}
+
+main>article>img{
+	max-width: 100%;
+}
+
+main>article{
+	position: relative;
+}
+
+main{
+	margin-left: 20px;
+	max-width: 100%;
+}
+
+main>article>h1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 48px;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.info{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
+
+.pink {
+	background-color: pink;
+}
+ 
+.yellow {
+	background-color: yellow;
+}
+
+.info>p, .advantages>p{
+	padding: 20px;
+	text-align: center;
+}
+
+.advantages {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+
+
+.blue {
+	background-color: red;
+}
+
+.black {
+	background-color: lawngreen;
+
+}
+
+.red {
+	background-color: lightblue;
+
+}
+
+h2{
+	text-align: center;
+	margin: 20px 0;
+	color: white;
+}
+
+/*Подвал*/
+footer{
+	background-color: rgba(186, 85, 211, 0.75);
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+footer>article>span{
+	padding: 10px 15px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
